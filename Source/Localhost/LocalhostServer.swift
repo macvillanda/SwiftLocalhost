@@ -10,6 +10,13 @@ import Foundation
 import Criollo
 
 extension LocalhostServer: LocalhostRouter {
+    public func replace(_ path: String, method: String, routeBlock: @escaping ((URLRequest) -> LocalhostServerResponse?)) {
+        self.server.replace(path, block: { [weak self] (req, res, next) in
+            self?.handleRoute(httpMethod: method, routeBlock: routeBlock,
+                              crRequest: req, crResponse: res)
+        })
+    }
+    
     
     public func get(_ path: String, routeBlock: @escaping ((URLRequest) -> LocalhostServerResponse?)) {
         self.server.get(path, block: {  [weak self] (req, res, next) in

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		058FB059D74AB4B732288EE6 /* Pods_SwiftLocalhost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B368B3A45E59E277C654EC8F /* Pods_SwiftLocalhost.framework */; };
 		1C4BF384216F9402004794CB /* SwiftLocalhost.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C4BF382216F9402004794CB /* SwiftLocalhost.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1C4BF392216FA095004794CB /* LocalhostServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4BF38B216FA095004794CB /* LocalhostServer.swift */; };
 		1C4BF393216FA095004794CB /* GARequestLoggingReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4BF38C216FA095004794CB /* GARequestLoggingReport.swift */; };
@@ -18,10 +17,11 @@
 		1C4BF398216FA095004794CB /* GARequestPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4BF391216FA095004794CB /* GARequestPayload.swift */; };
 		1C4BF39F216FA33F004794CB /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 1C4BF39E216FA33E004794CB /* Podfile */; };
 		1CA2340A21D3DFC7008436A0 /* LocalhostPort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA2340921D3DFC7008436A0 /* LocalhostPort.swift */; };
+		7171061705B4B35EDC421883 /* Pods_SwiftLocalhost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6C15D2F47ACFE003DCF0E0 /* Pods_SwiftLocalhost.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0E552AD08E31516966B9F6E2 /* Pods-SwiftLocalhost.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftLocalhost.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftLocalhost/Pods-SwiftLocalhost.release.xcconfig"; sourceTree = "<group>"; };
+		020B22A8E39BC60090F672B2 /* Pods-SwiftLocalhost.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftLocalhost.release.xcconfig"; path = "Target Support Files/Pods-SwiftLocalhost/Pods-SwiftLocalhost.release.xcconfig"; sourceTree = "<group>"; };
 		1C4BF37F216F9401004794CB /* SwiftLocalhost.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftLocalhost.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C4BF382216F9402004794CB /* SwiftLocalhost.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftLocalhost.h; sourceTree = "<group>"; };
 		1C4BF383216F9402004794CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -36,8 +36,8 @@
 		1C4BF39C216FA268004794CB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1C4BF39E216FA33E004794CB /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1CA2340921D3DFC7008436A0 /* LocalhostPort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalhostPort.swift; sourceTree = "<group>"; };
-		B368B3A45E59E277C654EC8F /* Pods_SwiftLocalhost.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftLocalhost.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B45D040DED76B449E2B215BC /* Pods-SwiftLocalhost.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftLocalhost.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftLocalhost/Pods-SwiftLocalhost.debug.xcconfig"; sourceTree = "<group>"; };
+		36588E6A5CB51B5B9F4764EE /* Pods-SwiftLocalhost.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftLocalhost.debug.xcconfig"; path = "Target Support Files/Pods-SwiftLocalhost/Pods-SwiftLocalhost.debug.xcconfig"; sourceTree = "<group>"; };
+		5E6C15D2F47ACFE003DCF0E0 /* Pods_SwiftLocalhost.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftLocalhost.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				058FB059D74AB4B732288EE6 /* Pods_SwiftLocalhost.framework in Frameworks */,
+				7171061705B4B35EDC421883 /* Pods_SwiftLocalhost.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,8 +61,8 @@
 				1C4BF38A216F9422004794CB /* Source */,
 				1C4BF381216F9401004794CB /* SwiftLocalhost */,
 				1C4BF380216F9401004794CB /* Products */,
-				C347CA9F796B33FF17505A7A /* Pods */,
-				6F30276CA4C39203520A0452 /* Frameworks */,
+				5BCB3020CFFD0E8DBCED6C03 /* Pods */,
+				274DAEE4B2234552ECC52911 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,21 +114,22 @@
 			path = Localhost;
 			sourceTree = "<group>";
 		};
-		6F30276CA4C39203520A0452 /* Frameworks */ = {
+		274DAEE4B2234552ECC52911 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B368B3A45E59E277C654EC8F /* Pods_SwiftLocalhost.framework */,
+				5E6C15D2F47ACFE003DCF0E0 /* Pods_SwiftLocalhost.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C347CA9F796B33FF17505A7A /* Pods */ = {
+		5BCB3020CFFD0E8DBCED6C03 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B45D040DED76B449E2B215BC /* Pods-SwiftLocalhost.debug.xcconfig */,
-				0E552AD08E31516966B9F6E2 /* Pods-SwiftLocalhost.release.xcconfig */,
+				36588E6A5CB51B5B9F4764EE /* Pods-SwiftLocalhost.debug.xcconfig */,
+				020B22A8E39BC60090F672B2 /* Pods-SwiftLocalhost.release.xcconfig */,
 			);
 			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,7 +150,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1C4BF387216F9402004794CB /* Build configuration list for PBXNativeTarget "SwiftLocalhost" */;
 			buildPhases = (
-				26E12147F68D3D214934DD12 /* [CP] Check Pods Manifest.lock */,
+				2DEF916E5D1723B954BDB9D3 /* [CP] Check Pods Manifest.lock */,
 				1C4BF37A216F9401004794CB /* Sources */,
 				1C4BF37B216F9401004794CB /* Frameworks */,
 				1C4BF37C216F9401004794CB /* Headers */,
@@ -208,16 +209,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		26E12147F68D3D214934DD12 /* [CP] Check Pods Manifest.lock */ = {
+		2DEF916E5D1723B954BDB9D3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-SwiftLocalhost-checkManifestLockResult.txt",
 			);
@@ -369,7 +374,7 @@
 		};
 		1C4BF388216F9402004794CB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B45D040DED76B449E2B215BC /* Pods-SwiftLocalhost.debug.xcconfig */;
+			baseConfigurationReference = 36588E6A5CB51B5B9F4764EE /* Pods-SwiftLocalhost.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -396,7 +401,7 @@
 		};
 		1C4BF389216F9402004794CB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E552AD08E31516966B9F6E2 /* Pods-SwiftLocalhost.release.xcconfig */;
+			baseConfigurationReference = 020B22A8E39BC60090F672B2 /* Pods-SwiftLocalhost.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";

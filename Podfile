@@ -7,7 +7,7 @@ use_frameworks!
 inhibit_all_warnings!
 
 def pods
-    pod 'Criollo'
+    pod 'Criollo', :git => 'https://github.com/tomekh7/Criollo', :branch => 'replacing-routes'
 end
 
 target 'SwiftLocalhost' do

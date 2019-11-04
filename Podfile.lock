@@ -4,17 +4,26 @@ PODS:
     - CocoaAsyncSocket (~> 7.6)
 
 DEPENDENCIES:
-  - Criollo
+  - Criollo (from `https://github.com/tomekh7/Criollo`, branch `replacing-routes`)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - CocoaAsyncSocket
-    - Criollo
+
+EXTERNAL SOURCES:
+  Criollo:
+    :branch: replacing-routes
+    :git: https://github.com/tomekh7/Criollo
+
+CHECKOUT OPTIONS:
+  Criollo:
+    :commit: 72c29a657499e31d34e7995be66bd5e78e3c350d
+    :git: https://github.com/tomekh7/Criollo
 
 SPEC CHECKSUMS:
   CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
   Criollo: 617173837c296ca4248b0b058f36ce9b91e5c25b
 
-PODFILE CHECKSUM: dc9e07b26ef016ac09cfd83d40a67dcefb95e43b
+PODFILE CHECKSUM: 19ef316635bc9da06521de405745df17fce88e10
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.8.3

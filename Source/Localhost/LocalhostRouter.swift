@@ -19,6 +19,8 @@ public protocol LocalhostRouter {
     func options(_ path: String, routeBlock: @escaping ((URLRequest) -> LocalhostServerResponse?))
     func head(_ path: String, routeBlock: @escaping ((URLRequest) -> LocalhostServerResponse?))
     
+    replace(_ path: String, method: String, routeBlock: @escaping ((URLRequest) -> LocalhostServerResponse?))
+    
     func startListening()
     func stopListening()
 }
